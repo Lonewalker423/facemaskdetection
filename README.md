@@ -29,5 +29,4 @@ First the TensorFlow Lite model file was added to the assets folder of the proje
 And then the required parameters to fit our model requirements in the DetectorActivity configuration section were adjusted. We set the input size of the model to **TF_OD_API_INPUT_SIZE = 224**, and **TF_OD_IS_QUANTIZED = false**. We need to point to the mask detector file. Also we can create a label map text file with the classes names "mask" and "no-mask". Also we define a larger preview size to (800x600) px. to have better resolution for our detector.
 
 
-## More examples
 
